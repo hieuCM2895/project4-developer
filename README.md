@@ -36,7 +36,7 @@ It should return data that looks like this:
       "todoId": "123",
       "createdAt": "2023-10-08T20:01:45.424Z",
       "name": "Buy milk",
-      "dueDate": "2019-07-29T20:01:45.424Z",
+      "dueDate": "2023-10-08T20:01:45.424Z",
       "done": false,
       "attachmentUrl": "http://example.com/image.png"
     },
@@ -44,7 +44,7 @@ It should return data that looks like this:
       "todoId": "456",
       "createdAt": "2023-10-08T20:01:45.424Z",
       "name": "Send a letter",
-      "dueDate": "2019-07-29T20:01:45.424Z",
+      "dueDate": "2023-10-08T20:01:45.424Z",
       "done": true,
       "attachmentUrl": "http://example.com/image.png"
     }
@@ -60,7 +60,7 @@ It receives a new TODO item to be created in JSON format that looks like this:
 {
   "createdAt": "2023-10-08T20:01:45.424Z",
   "name": "Buy milk",
-  "dueDate": "2019-07-29T20:01:45.424Z",
+  "dueDate": "2023-10-08T20:01:45.424Z",
   "done": false,
   "attachmentUrl": "http://example.com/image.png"
 }
@@ -74,7 +74,7 @@ It should return a new TODO item that looks like this:
     "todoId": "123",
     "createdAt": "2023-10-08T20:01:45.424Z",
     "name": "Buy milk",
-    "dueDate": "2019-07-29T20:01:45.424Z",
+    "dueDate": "2023-10-08T20:01:45.424Z",
     "done": false,
     "attachmentUrl": "http://example.com/image.png"
   }
@@ -88,7 +88,7 @@ It receives an object that contains three fields that can be updated in a TODO i
 ```json
 {
   "name": "Buy bread",
-  "dueDate": "2019-07-29T20:01:45.424Z",
+  "dueDate": "2023-10-08T20:01:45.424Z",
   "done": true
 }
 ```
